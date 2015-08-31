@@ -15,6 +15,7 @@
 		0942BA191B94305D0050641E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0942BA171B94305D0050641E /* LaunchScreen.storyboard */; };
 		0942BA241B94305D0050641E /* animationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0942BA231B94305D0050641E /* animationTestTests.m */; };
 		0942BA2F1B94305D0050641E /* animationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0942BA2E1B94305D0050641E /* animationTestUITests.m */; };
+		0942BA3E1B94326F0050641E /* LineClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0942BA3D1B94326F0050641E /* LineClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0942BA2A1B94305D0050641E /* animationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0942BA2E1B94305D0050641E /* animationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animationTestUITests.m; sourceTree = "<group>"; };
 		0942BA301B94305D0050641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0942BA3C1B94326F0050641E /* LineClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineClass.h; sourceTree = "<group>"; };
+		0942BA3D1B94326F0050641E /* LineClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0942BA171B94305D0050641E /* LaunchScreen.storyboard */,
 				0942BA1A1B94305D0050641E /* Info.plist */,
 				0942BA091B94305D0050641E /* Supporting Files */,
+				0942BA3C1B94326F0050641E /* LineClass.h */,
+				0942BA3D1B94326F0050641E /* LineClass.m */,
 			);
 			path = animationTest;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0942BA3E1B94326F0050641E /* LineClass.m in Sources */,
 				0942BA111B94305D0050641E /* ViewController.m in Sources */,
 				0942BA0E1B94305D0050641E /* AppDelegate.m in Sources */,
 				0942BA0B1B94305D0050641E /* main.m in Sources */,
